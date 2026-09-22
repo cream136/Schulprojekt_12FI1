@@ -20,12 +20,22 @@
   ],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "type": "commonjs",
+=======
+  "type": "module",
+>>>>>>> 187ffe6e7397bd0df72c4134860bcc6ddb468046
   "bugs": {
     "url": "https://github.com/cream136/Schulprojekt_12FI1/issues"
   },
   "homepage": "https://github.com/cream136/Schulprojekt_12FI1#readme",
+<<<<<<< HEAD
   "dependencies": {},
+=======
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+>>>>>>> 187ffe6e7397bd0df72c4134860bcc6ddb468046
   "devDependencies": {
     "electron": "^44.4.1"
   }
