@@ -74,7 +74,6 @@ function getJson(url, headers = {}) {
 
           try {
             const data = JSON.parse(body);
-
             resolve(data);
           } catch (error) {
             reject(
@@ -157,8 +156,18 @@ async function routeBerechnen(start, ziel) {
     "?overview=false";
 
   console.log("\nOSRM:");
+  console.log("HTTP-Aufruf:");
+  console.log(url);
 
-  const data = await getJson(url);
+  const data = await getJson(
+    url,
+    {
+      "User-Agent":
+        "Stautracker-Schulprojekt/1.0",
+      "Accept":
+        "application/json"
+    }
+  );
 
   if (data.code !== "Ok") {
     throw new Error(
