@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stautracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Stautracker</h1>
+    <p>Teste zuerst die Routenberechnung.</p>
+
+    <label for="start">Start</label>
+    <input id="start" type="text" placeholder="z. B. Würzburg Hauptbahnhof">
+
+    <label for="ziel">Ziel</label>
+    <input id="ziel" type="text" placeholder="z. B. Kitzingen Bahnhof">
+
+    <button id="suchen">Route prüfen</button>
+
+    <div id="status"></div>
+    <div id="ergebnis"></div>
+
+    <small>Geocoding: OpenStreetMap/Nominatim · Routing: OSRM</small>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

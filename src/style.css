@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+.card {
+  width: min(560px, calc(100% - 32px));
+  margin: 60px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+h1 { margin-top: 0; }
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+input, button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+#status {
+  margin-top: 18px;
+  font-weight: bold;
+}
+small {
+  display: block;
+  margin-top: 24px;
+  color: #667085;
+}
