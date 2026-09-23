@@ -1,42 +1,13 @@
 {
-  "name": "schulprojekt_12fi1",
+  "name": "stautracker",
   "version": "1.0.0",
-  "description": "Stautracker als Schulprojekt mit Electron und Node.js",
+  "description": "Schulprojekt Stautracker mit Electron, OpenStreetMap, Nominatim und OSRM",
   "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "dev": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cream136/Schulprojekt_12FI1.git"
-  },
-  "keywords": [
-    "electron",
-    "nodejs",
-    "stautracker",
-    "schulprojekt"
-  ],
-  "author": "",
-  "license": "ISC",
-
-  "type": "commonjs",
-
   "type": "module",
-
-  "bugs": {
-    "url": "https://github.com/cream136/Schulprojekt_12FI1/issues"
+  "scripts": {
+    "start": "electron ."
   },
-  "homepage": "https://github.com/cream136/Schulprojekt_12FI1#readme",
-
-  "dependencies": {},
-
-  "dependencies": {
-    "express": "^5.2.1"
-  },
-
   "devDependencies": {
-    "electron": "^44.4.1"
+    "electron": "^38.1.2"
   }
 }
